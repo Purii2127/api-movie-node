@@ -6,9 +6,9 @@
             "use": "@now/node"
         }
     ],
-    "routes": [
+    "routes":[
         {
-            "src": "/(.*)",
+            "src":"/(.*)",
             "dest": "server.ts"
         }
     ]
