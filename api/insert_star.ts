@@ -4,30 +4,6 @@ import express from "express";
 
 export const router = express.Router();
 
-// router.get("/movie", (req, res) => {
-//     // เรียกใช้งาน SQL เพื่อดึงข้อมูลทั้งหมดจากตาราง "image"
-//     const sql = "SELECT * FROM movie ";
-//     conn.query(sql, (err, result) => {
-//       if (err) {
-//         res.json(err);
-//       } else {
-//         res.json(result);
-//       }
-//     });
-//   });
-
-//   router.get("/person", (req, res) => {
-//     // เรียกใช้งาน SQL เพื่อดึงข้อมูลทั้งหมดจากตาราง "image"
-//     const sql = "SELECT * FROM person ";
-//     conn.query(sql, (err, result) => {
-//       if (err) {
-//         res.json(err);
-//       } else {
-//         res.json(result);
-//       }
-//     });
-//   });
-
 export interface star {
     Mid:  string;
     Pid:  string;
